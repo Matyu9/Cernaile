@@ -1,0 +1,3 @@
+/Users/matyu/Code/Cernaile/cmake-build-debug/CMakeFiles/Cernaile.dir
+/Users/matyu/Code/Cernaile/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/matyu/Code/Cernaile/cmake-build-debug/CMakeFiles/rebuild_cache.dir
