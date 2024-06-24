@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-project(Cernaile C ASM)
+project(Cernaile C ASM_NASM)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_FLAGS "-ffreestanding -O2 -Wall -Wextra")

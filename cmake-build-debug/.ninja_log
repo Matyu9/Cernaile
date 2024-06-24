@@ -1,3 +1,5 @@
 # ninja log v6
-0	50	1719075848801725916	CMakeFiles/Cernaile.dir/main.c.o	231dcb618e69ce46
 50	81	1719075848852066639	Cernaile	abfd78909e4b2c1a
+1	154	1719081882784316920	CMakeFiles/kernel.bin.dir/src/kernel.c.o	1a0b9fdec51b9b76
+0	50	1719075848801725916	CMakeFiles/Cernaile.dir/main.c.o	231dcb618e69ce46
+0	32	1719084367843592915	build.ninja	63a96964501fa280

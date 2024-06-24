@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Cernaile::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cernaile-Debug-5f57c03d0a1c02207424.json",
-					"name" : "Cernaile",
+					"id" : "kernel.bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel.bin-Debug-61545b00db64c31e6b02.json",
+					"name" : "kernel.bin",
 					"projectIndex" : 0
 				}
 			]

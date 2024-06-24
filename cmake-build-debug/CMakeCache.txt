@@ -20,6 +20,42 @@ CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
 
+//ASM compiler
+CMAKE_ASM_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+
+//Flags used by the ASM compiler during all build types.
+CMAKE_ASM_FLAGS:STRING=
+
+//Flags used by the ASM compiler during DEBUG builds.
+CMAKE_ASM_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the ASM compiler during MINSIZEREL builds.
+CMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the ASM compiler during RELEASE builds.
+CMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the ASM compiler during RELWITHDEBINFO builds.
+CMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+//ASM_NASM compiler
+CMAKE_ASM_NASM_COMPILER:STRING=/opt/homebrew/bin/nasm
+
+//Flags used by the ASM_NASM compiler during all build types.
+CMAKE_ASM_NASM_FLAGS:STRING=
+
+//Flags used by the ASM_NASM compiler during DEBUG builds.
+CMAKE_ASM_NASM_FLAGS_DEBUG:STRING=
+
+//Flags used by the ASM_NASM compiler during MINSIZEREL builds.
+CMAKE_ASM_NASM_FLAGS_MINSIZEREL:STRING=
+
+//Flags used by the ASM_NASM compiler during RELEASE builds.
+CMAKE_ASM_NASM_FLAGS_RELEASE:STRING=
+
+//Flags used by the ASM_NASM compiler during RELWITHDEBINFO builds.
+CMAKE_ASM_NASM_FLAGS_RELWITHDEBINFO:STRING=
+
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -28,7 +64,7 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -213,6 +249,32 @@ Cernaile_SOURCE_DIR:STATIC=/Users/matyu/Code/Cernaile
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_COMPILER
+CMAKE_ASM_COMPILER-ADVANCED:INTERNAL=1
+CMAKE_ASM_COMPILER_WORKS:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS
+CMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG
+CMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL
+CMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE
+CMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELWITHDEBINFO
+CMAKE_ASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_COMPILER
+CMAKE_ASM_NASM_COMPILER-ADVANCED:INTERNAL=1
+CMAKE_ASM_NASM_COMPILER_WORKS:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_FLAGS
+CMAKE_ASM_NASM_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_FLAGS_DEBUG
+CMAKE_ASM_NASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_FLAGS_MINSIZEREL
+CMAKE_ASM_NASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_FLAGS_RELEASE
+CMAKE_ASM_NASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ASM_NASM_FLAGS_RELWITHDEBINFO
+CMAKE_ASM_NASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/Users/matyu/Code/Cernaile/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
@@ -241,6 +303,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=/opt/homebrew/Cellar/cmake/3.29.6/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=MACHO
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
