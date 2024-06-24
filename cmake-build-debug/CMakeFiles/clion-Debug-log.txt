@@ -8,14 +8,7 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- The C compiler identification is GNU 12.2.0
--- The ASM_NASM compiler identification is NASM
--- Found assembler: /usr/bin/nasm
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (0.2s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/matyu/Quernaile/cmake-build-debug
+CMake File API: /home/matyu/Quernaile/cmake-build-debug: failed to load from '/home/matyu/Quernaile/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e318474fb7c870b7fded.json'

@@ -24,7 +24,11 @@
 			{
 				"command" : 0,
 				"file" : 0,
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-58a5f67ebe93f30d117c.json
 				"line" : 15,
+========
+				"line" : 9,
+>>>>>>>> origin/main:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-61545b00db64c31e6b02.json
 				"parent" : 0
 			}
 		]
@@ -35,7 +39,11 @@
 			"compileCommandFragments" : 
 			[
 				{
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-58a5f67ebe93f30d117c.json
 					"fragment" : "-ffreestanding -O2 -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always"
+========
+					"fragment" : "-ffreestanding -O2 -Wall -Wextra -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics"
+>>>>>>>> origin/main:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-61545b00db64c31e6b02.json
 				}
 			],
 			"language" : "C",
@@ -70,7 +78,11 @@
 				"role" : "flags"
 			},
 			{
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-58a5f67ebe93f30d117c.json
 				"fragment" : "-nostdlib -T /home/matyu/Quernaile/linker.ld",
+========
+				"fragment" : "-nostdlib -T linker.ld",
+>>>>>>>> origin/main:cmake-build-debug/.cmake/api/v1/reply/target-kernel.bin-Debug-61545b00db64c31e6b02.json
 				"role" : "flags"
 			}
 		],

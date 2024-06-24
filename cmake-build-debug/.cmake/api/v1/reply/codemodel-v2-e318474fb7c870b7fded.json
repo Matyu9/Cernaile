@@ -39,7 +39,11 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "kernel.bin::@6890427a1f51a3e7e1df",
+<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e318474fb7c870b7fded.json
 					"jsonFile" : "target-kernel.bin-Debug-58a5f67ebe93f30d117c.json",
+========
+					"jsonFile" : "target-kernel.bin-Debug-61545b00db64c31e6b02.json",
+>>>>>>>> origin/main:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c407407d8fcd2f07df38.json
 					"name" : "kernel.bin",
 					"projectIndex" : 0
 				}
