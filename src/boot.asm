@@ -1,6 +1,6 @@
 ; boot.asm
 BITS 16
-ORG 0X7C00
+ORG 0x7C00
 
 start:
     ; Chargement du Kernel (un fichier binaire)

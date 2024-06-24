@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Cernaile"
+			"path" : "kernel.bin"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics"
+					"fragment" : "-ffreestanding -O2 -Wall -Wextra -g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -51,26 +51,33 @@
 			[
 				0
 			]
+		},
+		{
+			"language" : "ASM_NASM",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
-	"id" : "Cernaile::@6890427a1f51a3e7e1df",
+	"id" : "kernel.bin::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-ffreestanding -O2 -Wall -Wextra -g",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-nostdlib -T /home/matyu/Quernaile/linker.ld",
 				"role" : "flags"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "Cernaile",
-	"nameOnDisk" : "Cernaile",
+	"name" : "kernel.bin",
+	"nameOnDisk" : "kernel.bin",
 	"paths" : 
 	{
 		"build" : ".",
@@ -84,6 +91,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -91,8 +105,14 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "src/kernel.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/boot.asm",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

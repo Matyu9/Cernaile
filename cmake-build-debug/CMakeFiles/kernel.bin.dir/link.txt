@@ -1,0 +1,1 @@
+/usr/bin/cc -ffreestanding -O2 -Wall -Wextra -g -nostdlib -T /home/matyu/Quernaile/linker.ld CMakeFiles/kernel.bin.dir/src/kernel.c.o CMakeFiles/kernel.bin.dir/src/boot.asm.o -o kernel.bin

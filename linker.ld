@@ -1,8 +1,10 @@
+OUTPUT_FORMAT("binary")
+
 SECTIONS
 {
-    . = 0x100000;
-    .text : { *(.text*) }
-    .rodata : { *(.rodata*) }
-    .data : { *(.data*) }
-    .bss : { *(.bss*) }
+  . = 0x7C00;
+  .text : { *(.text) }
+  .data : { *(.data) }
+  .bss : { *(.bss) }
+  /DISCARD/ : { *(.note*) *(.comment*) }
 }

@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.28"
+						"string" : "3.25"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Cernaile::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cernaile-Debug-5f57c03d0a1c02207424.json",
-					"name" : "Cernaile",
+					"id" : "kernel.bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel.bin-Debug-58a5f67ebe93f30d117c.json",
+					"name" : "kernel.bin",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/matyu/Code/Cernaile/cmake-build-debug",
-		"source" : "/Users/matyu/Code/Cernaile"
+		"build" : "/home/matyu/Quernaile/cmake-build-debug",
+		"source" : "/home/matyu/Quernaile"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
