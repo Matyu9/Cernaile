@@ -20,3 +20,22 @@
 .align 16
 stack_bottom:
 .skip 16384 # 16 KiB
+
+stack_top:
+.section .text
+.global _start
+.type _start, @function
+_start:
+        /* Setup de l'ESP */
+        mov $stack_top, %esp
+
+        /* Lancement du kernel 'higher level' */
+        /* Décalé de 16 bit car l'ABI en a besoin */
+        call kernel_main
+
+        /* Boucle infini si le kernel à finis de faire ce qu'il voulait */
+        cli
+        hlt
+        jmp 1b
+
+.size _start, . - _start
