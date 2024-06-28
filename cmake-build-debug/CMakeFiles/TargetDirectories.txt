@@ -1,3 +1,0 @@
-/home/matyu/Quernaile/cmake-build-debug/CMakeFiles/kernel.bin.dir
-/home/matyu/Quernaile/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/matyu/Quernaile/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,0 @@
-ToolSet: 1.0 (local)Ninja: 1.12.0@/home/matyu/.cache/JetBrains/RemoteDev/dist/d28e1ca6fa680_CLion-242.16677.29/bin/ninja/linux/x64/ninja
-Options: 
-
-Options:
